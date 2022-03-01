@@ -47,7 +47,7 @@ void operator<<(ostream &out, memberType&s)
 }
 int main()
 {
-    memberType mt,*p;
+    memberType mt;
     char *choice;
     string name;
     int ID,book;
