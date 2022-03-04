@@ -58,7 +58,7 @@ public:
 };
 void operator==(Distance& d1, Distance& d2)
 {
-    if((d1.kilometer==d2.kilometer)&&(d1.meter=d2.meter))cout<<"Distance of two objects are the same"<<endl;
+    if((d1.kilometer==d2.kilometer)&&(d1.meter==d2.meter))cout<<"Distance of two objects are the same"<<endl;
     else
     {
         cout<<"Distance of two objects are not equal"<<endl;
